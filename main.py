@@ -22,6 +22,14 @@ debug = True
 while debug:
     print("Menu\n" + ("-" * 13))
     print("1. Encode\n2. Decode\n3. Quit\n")
-    int(input("Please enter an option: "))
-    int(input("Please enter your password to encode: "))
+    option = int(input("Please enter an option: "))
+    password = int(input("Please enter your password to encode: "))
+
+    if option == 1:
+
+
+    elif option == 2:
+        print("")
+    if option == 3:
+        break
 

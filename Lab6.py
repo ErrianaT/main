@@ -19,7 +19,7 @@ def decoder(passkey):
 
 
 debug = True
-
+h
 while debug:
     print("\nMenu\n" + ("-" * 13))
     print("1. Encode\n2. Decode\n3. Quit\n")

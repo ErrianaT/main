@@ -12,10 +12,10 @@ def encoder(passkey):
 
 
 def decoder(passkey):
-    decoded_string = " "
+    decode = ""
     for i in passkey:
-        decoded_string += str(int(i) - 3)
-    return decoded_string
+        decode += str(int(i) - 3)
+    return decode
 
 
 debug = True
